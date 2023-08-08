@@ -28,19 +28,31 @@ body {
   padding: 188px 0;
   background-color: #2e2f42;
   flex-shrink: 0;
+  background: url(<path-to-image>), lightgray 0px -167.766px / 100% 139.922% no-repeat;
 }
 .section-two {
   padding: 120px 0;
 }
 .items-studio {
   display: flex;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 8px;
   padding-left: 0;
   margin: 0 auto;
 }
 .itemtwo {
   width: calc((100% - 72px) / 4);
   gap: 24px;
+}
+.item-category {
+  width: 264px;
+height: 112px;
+flex-shrink: 0;
+border-radius: 4px;
+background: var(--cloud, #F4F4FD);
+}
+.icon-category {
+  margin: 24px 100px;
 }
 .heroh {
   font-size: 56px;
@@ -62,6 +74,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--navyblue, #2e2f42);
   margin-bottom: 8px;
+  display: flex;
+  justify-content: flex-start;
   text-align: center;
 }
 .captions {
