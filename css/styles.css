@@ -300,6 +300,22 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
   color: var(--slate, #434455);
   text-align: flex-start;
 }
+.section-customers {
+  padding: 120px 0;
+}
+.customers-title {
+  color: var(--navyblue, #2E2F42);
+  font-size: 36px;
+font-style: normal;
+line-height: 1.111;
+letter-spacing: 0.1em;
+text-transform: capitalize;
+text-align: center;
+margin-top: 60px;
+}
+.icon-customers {
+  fill: #404bbf;
+}
 .logof {
   color: var(--iris, #4d5ae5);
   font-family: 'Raleway', sans-serif;
