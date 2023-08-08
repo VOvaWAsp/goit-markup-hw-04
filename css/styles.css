@@ -313,8 +313,18 @@ text-transform: capitalize;
 text-align: center;
 margin-top: 60px;
 }
-.icon-customers {
-  fill: #404bbf;
+.list-customers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  text-align: center;
+}
+.item-customers {
+  width: 168px;
+  height: 88px;
+  flex-shrink: 0;
+  border-radius: 4px;
+border: 1px solid var(--lightslate, #8E8F99);
 }
 .logof {
   color: var(--iris, #4d5ae5);
