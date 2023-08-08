@@ -1,0 +1,338 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin: 0 auto;
+}
+.section {
+  padding-bottom: 120px;
+}
+:root {
+  --navyblue: #2e2f42;
+  --iris: #4d5ae5;
+  --slate: #434455;
+  --white: #fff;
+  --ocean: #404bbf;
+  --cloud: #f4f4fd;
+}
+.header {
+  border-bottom: 1px solid #e7e9fc
+}
+.hero {
+  padding: 188px 0;
+  background-color: #2e2f42;
+  flex-shrink: 0;
+}
+.section-two {
+  padding: 120px 0;
+}
+.items-studio {
+  display: flex;
+  gap: 24px;
+  padding-left: 0;
+  margin: 0 auto;
+}
+.itemtwo {
+  width: calc((100% - 72px) / 4);
+  gap: 24px;
+}
+.heroh {
+  font-size: 56px;
+  text-align: center;
+  line-height: 1.07;
+  font-weight: 700;
+  padding-top: 48px;
+  margin: 0 auto;
+  width: 496px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  max-width: 496px;
+
+}
+.captionst {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue, #2e2f42);
+  margin-bottom: 8px;
+  text-align: center;
+}
+.captions {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  padding-bottom: 76px;
+  margin-bottom: 72px;
+}
+.section-three {
+  padding-bottom: 120px;
+}
+.wedoing {
+  display: flex;
+  gap: 24px;
+  padding-left: 0;
+  margin: 0 auto;
+}
+.wedli {
+  width: calc((100% - 48px) / 3);
+  gap: 24px;
+}
+.section-four {
+  background: var(--cloud, #F4F4FD);
+  padding: 120px 0;
+}
+.uls {
+  background-color: var( --cloud #f4f4fd);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding-left: 0;
+  margin: 0 auto;
+}
+.team-card {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px; 
+}
+.team {
+  padding: 32px 0;
+}
+img {
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+}
+.helink {
+  display: flex;
+  gap: 40px;
+  padding-top: 24px;
+  padding-left: 76px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.address .list {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 280px;
+  align-items: flex-start;
+  gap: 40px;
+}
+.studio-h {
+  color: #2E2F42;
+}
+.logo {
+  color: var(--iris, #4d5ae5);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding-top: 24px;
+  margin: 0 auto;
+}
+.studio {
+  color: #f4f4fd;
+  font-family: 'Raleway', sans-serif;
+}
+.nav {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding-bottom: 24px;
+}
+.nav-link {
+  color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+.address {
+  font-style: normal;
+}
+.contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate, #434455);
+  padding-bottom: 24px;
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+.btnh {
+  background-color: #4d5ae5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none; 
+  background-color: #4d5ae5; 
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 48px;
+}
+.btnh:hover,
+.btnh:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+.phero {
+  padding-top: 96px;
+}
+.btnl {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.btn-all {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+
+}
+.btn-all:hover,
+.btn-all:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.butnl {
+  gap: 24px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap; 
+  column-gap: 24px;
+  row-gap: 48px;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0 auto;
+}
+.textrow {
+  width: calc((100% - 48px) / 3);
+  display: flex;
+    align-items: flex-start;
+}
+.pimg {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+.team-card {
+  display: inline-flex;
+  padding-bottom: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 4px 4px;
+background: var(--white, #FFF);
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.list {
+  display: flex;
+  flex-direction: row;
+}
+.subjectp {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue, #2e2f42);
+  margin-bottom: 8px
+}
+.containerp {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.parp {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate, #434455);
+  text-align: flex-start;
+}
+.logof {
+  color: var(--iris, #4d5ae5);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+display: inline-block;
+margin-bottom: 16px;
+}
+.studiof {
+  color: #f4f4fd;
+}
+.textp {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+  max-width: 264px;
+}
+.footer {
+  background-color: #2e2f42;
+  padding: 100px 0 
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
