@@ -78,7 +78,7 @@ body {
   color: #ffffff;
   max-width: 496px;
 
- }
+}
 .captionst {
   font-weight: 500;
   font-size: 20px;
@@ -132,6 +132,13 @@ body {
 }
 .team {
   padding: 32px 0;
+  padding: 32px 0;
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 img {
   display: block;
@@ -278,10 +285,7 @@ ul {
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-all:hover,
 .btn-all:focus {
@@ -289,8 +293,8 @@ ul {
   background-color: #404bbf;
   cursor: pointer;
   border: 1px solid transparent;
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .link-butnalls:hover,
 .link-butnalls:focus {
@@ -323,22 +327,22 @@ ul {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-row:hover .container-carts,
-.link-row:hover .container-carts {
-  transition: translateY(0%);
+.link-row:hover .container-carts  {
+  transform: translateY(0%);
 }
-.textrow:hover .overlay {
-  transition: translateY(0);
-}
-.overlay {
-  background: var(--iris, #4d5ae5);
-  color: var(--cloud, #f4f4fd);
+.carts-text {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var( --cloud #f4f4fd);
+  padding: 40px 32px;
+  background-color: var(--iris #4d5ae5);
   height: 100%;
+  width: 100%;
   transform: translateY(100%);
-  transition: transform 250ms ease-in-out;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .pimg {
   padding: 32px 16px;
