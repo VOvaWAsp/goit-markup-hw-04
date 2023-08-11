@@ -169,7 +169,7 @@ ul {
 
 .nav-current {
   position: relative;
-  color: #404bbf;
+  color: var(--ocean, #404bbf);
 }
 
 .nav-current::after {
