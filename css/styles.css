@@ -166,22 +166,6 @@ ul {
   padding-top: 24px;
   padding-left: 76px;
 }
-
-.nav-current {
-  position: relative;
-  color: var(--ocean, #404bbf);
-}
-
-.nav-current::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 2px;
-  width: 100%;
-}
 .nav {
   display: flex;
   align-items: center;
@@ -229,6 +213,21 @@ ul {
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
+}
+.nav-current {
+  position: relative;
+  color: var(--ocean, #404bbf);
+}
+
+.nav-current::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+  width: 100%;
 }
 .address {
   font-style: normal;
