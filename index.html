@@ -68,7 +68,7 @@
               <h1 class="heroh">Effective Solutions for Your Business</h1>
             </li>
             <li>
-              <button class="btnh" type="button">Order Service</button>
+              <button class="btnh" type="button" data-modal-open>Order Service</button>
             </li>
           </ul>
         </div>
@@ -423,5 +423,15 @@
       </div>
       </div>
     </footer>
+    <div class="background is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close" data-modal-close>
+          <svg class="icon-close" width="8px" height="8px">
+           <use href="./images/icons.svg#icon-close-black-18dp-20"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
