@@ -166,7 +166,6 @@ ul {
   gap: 40px;
   padding-top: 24px;
   padding-left: 76px;
-  color: #404bbf;
 }
 .nav-link {
   position: relative;
@@ -185,7 +184,6 @@ ul {
 .nav {
   display: flex;
   align-items: center;
-  color: #404bbf;
 }
 .address .list {
   display: flex;
@@ -194,7 +192,6 @@ ul {
   padding-left: 280px;
   align-items: flex-start;
   gap: 40px;
-  color:  #404bbf;
 }
 .studio-h {
   color: #2e2f42;
@@ -225,7 +222,6 @@ ul {
 }
 .nav-link {
   position: relative;
-  color: #404bbf;
   color: #2e2f42;
   padding-top: 24px;
   padding-bottom: 24px;
